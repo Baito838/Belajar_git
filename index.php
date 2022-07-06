@@ -11,9 +11,12 @@ if (isset($_POST["submit"])) {
     else if($_POST["username"] == "bagas" || $_POST["password"] == "admin"){
         header("Location: Home.php");
         exit;
-    } else {
-        
+   
     }
+    else {
+        echo "<meta http-equiv='refresh' content='0'>";  
+    }
+
 }
 ?>
 
